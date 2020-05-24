@@ -1,0 +1,154 @@
+body {font-family: 'Source Sans Pro', sans-serif;}
+
+header {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+    overflow: hidden;  
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    display: flex;
+    color: white;
+    padding: 14px 16px;
+
+   
+}
+
+img {
+   padding-right: 30px;
+    height: 20px;
+    width: auto;
+}
+
+
+
+.navlinks {
+    display: flex;
+    color: white;
+    padding: 14px 16px;
+    justify-content: space-between;
+    align-items: flex-end;
+
+    }
+
+
+a {
+    padding: 0px 16px;
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    }
+
+.topnav a:hover {
+    color: violet;
+}
+
+.topnav a.active{
+    text-decoration: underline;
+}
+
+.hero 
+{
+    display: flex;
+    
+}
+
+.hero img {
+    display: flex;
+    width: 1920;
+    max-width: 100%;
+    height: auto;
+    max-height: 1250;
+    align-items: flex-start;
+    
+    
+}
+p {
+    color: #1E1443;
+    font-size: 13pt;
+}
+h1 {
+    font-weight: 500;
+    font-size: 18pt;
+    color: #1E1443;
+}
+
+.skills {
+
+    display: flex;
+    flex-direction: column;
+    margin-left: 150px;
+    margin-right: 150px;
+    
+}
+.skillboxes img {
+    display: flex;
+    
+    max-width: 65%;
+    height: auto;
+    margin-top: 50px;
+    
+
+}
+
+.skillboxes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+
+}
+
+.about {
+    display: flex;
+    justify-content: space-between;
+    background-color: #3C3C3C;
+    margin-top: 70px;
+    margin-bottom: 70px;
+  
+}
+
+
+.about p {
+    display: flex;
+    color: white;
+    font-weight: 10;
+   margin-right: 30px;
+
+
+}
+.about h1 {
+    color: white;
+
+
+}
+.aboutwords {
+  
+    margin-left: 140px;
+    margin-right: 140px;
+    width: 50%;
+
+}
+.about img {
+    height: 100%;
+    width: 70%;
+}
+
+.contact {
+    display: flex;
+    margin-left: 140px;
+    flex-direction: column
+}
+
+.contact p {
+    width: fit-content;
+    height: 60px;
+    margin-right: 150px;
+    font-size: 30px;
+    font-weight: 900;
+    
+}
+h1 .thanks {
+    font-style: italic;
+}
